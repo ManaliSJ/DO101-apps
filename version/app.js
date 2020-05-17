@@ -5,7 +5,7 @@ var response;
 
 app.get('/', function (req, res) {
 
-    response = 'Hi Manali' + '\n';
+    response = 'Hi Manali,how are you?' + '\n';
 
     //send the response to the client
     res.send(response);
